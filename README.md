@@ -39,4 +39,19 @@ Entry point of the application.
 ## Usage
 
 1. **Setup**: Clone the repository and ensure Python 3.x is installed.
-   
+
+  ## Dependencies
+
+- Python 3.x
+- No external libraries beyond standard Python libraries are required.
+
+## Future Enhancements
+
+- Support for more complex patterns and entity types.
+- Integration with larger NLP pipelines.
+- Improved error handling and input validation.
+
+## Contributors
+
+- Infance Tony ([@InfanceTony-cs22](https://github.com/InfanceTony-cs22))
+
