@@ -1,12 +1,12 @@
-Overview
+Overview:
 This repository contains a Python implementation of a Named Entity Recognition (NER) system using Finite Automata. The project demonstrates how to identify specific patterns corresponding to named entities (e.g., names of people, organizations, locations) within text data.
 
-Features
+Features:
 Finite Automata Implementation: Utilizes a finite automaton model to recognize named entities based on predefined patterns.
 Customizable Entities: Users can define and add their own named entities for recognition.
 Text Input: Accepts user-provided text for identifying named entities.
 Output: Provides feedback on recognized named entities within the input text.
-Components
+Components:
 State Class (state.py)
 Represents a state in the finite automaton.
 
@@ -26,23 +26,6 @@ Handles user interaction and integrates the Automaton class for named entity rec
 Allows users to define named entities and input text for recognition.
 Usage
 Setup: Clone the repository and ensure Python 3.x is installed.
-
-bash
-Copy code
-git clone https://github.com/InfanceTony-cs22/ner-finite-automata.git
-cd ner-finite-automata
-Define Named Entities: Edit main.py to add named entities using the add_entity(entity) method.
-
-python
-Copy code
-automaton.add_entity("Infance Tony")
-automaton.add_entity("Stella Marys College of Engineering")
-Run the Program: Execute main.py and input text to recognize named entities.
-
-css
-Copy code
-python main.py
-Output: The program will display recognized named entities found in the input text.
 
 Dependencies
 Python 3.x
