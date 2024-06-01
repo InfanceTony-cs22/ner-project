@@ -29,7 +29,7 @@ Setup: Clone the repository and ensure Python 3.x is installed.
 
 bash
 Copy code
-git clone https://github.com/your-username/ner-finite-automata.git
+git clone https://github.com/InfanceTony-cs22/ner-finite-automata.git
 cd ner-finite-automata
 Define Named Entities: Edit main.py to add named entities using the add_entity(entity) method.
 
